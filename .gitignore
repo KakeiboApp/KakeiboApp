@@ -1,6 +1,3 @@
-*.class
-*.log
-
 # sbt specific
 .cache
 .history
@@ -15,3 +12,48 @@ project/plugins/project/
 # Scala-IDE specific
 .scala_dependencies
 .worksheet
+
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# log files
+*.log
+
+# jar files
+*.jar
+
+# generated files
+bin/
+gen/
+lint.xml
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Intellij
+*.ipr
+*.iws
+
+# Android Studio
+.gradle/
+.idea/
+gradle/
+build/
+#build.gradle
+gradlew
+gradlew.bat
+#settings.gradle
+*.iml
+
+# Mac不要ファイル
+.DS_Store
+
+# Windows不要ファイル
+Thumbs.db
